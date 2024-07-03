@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SummerPractise24_1</string>
+
+    <string name="music_screen">Music</string>
+    <string name="book_screen">Book</string>
+    <string name="person_screen">Person</string>
+    <string name="settings_screen">Settings</string>
+    <string name="message_screen">Message</string>
+    <string name="profile_screen">Profile</string>
+    <string name="your_email_is">Your email is %1$s</string>
+    <string name="input_your_email">Input your email</string>
+    <string name="send">Send</string>
+    <string name="danza_kuduro">Danza Kuduro</string>
+    <string name="don_omar">Don Omar</string>
+    <string name="danza_kuduro_small">Песня пуэрто-риканского музыканта Дона Омара</string>
+    <string name="info">Информация</string>
+    <string name="description">Описание</string>
+    <string name="danza_kuduro_big">«Danza Kuduro» — песня пуэрто-риканского музыканта Дона Омара при участии португальско-французского певца Лученцо из совместного альбома Дона Омара Meet the Orphans. Она стала хитом в большинстве латиноамериканских стран и, в конечном итоге, по всей Европе. «Danza Kuduro» был номером один в чарте «Hot Latin Songs», став вторым хитом Дона Омара, занявшим первую позицию в чарте Billboard Hot Latin Songs, и первым для Лученцо.</string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.itis.summerpractise24_1.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+
+        <action
+            android:id="@+id/action_profileFragment_to_pageFragment"
+            app:destination="@id/pageFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="ru.itis.summerpractise24_1.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="ru.itis.summerpractise24_1.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="ru.itis.summerpractise24_1.MessageFragment"
+        android:label="fragment_message"
+        tools:layout="@layout/fragment_message" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ru.itis.summerpractise24_1.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" >
+
+        <action
+            android:id="@+id/action_musicFragment_to_danzaKuduroFragment"
+            app:destination="@id/danzaKuduroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.itis.summerpractise24_1.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/pageFragment"
+        android:name="ru.itis.summerpractise24_1.PageFragment"
+        android:label="fragment_page"
+        tools:layout="@layout/fragment_page" />
+    <fragment
+        android:id="@+id/danzaKuduroFragment"
+        android:name="ru.itis.summerpractise24_1.MusicInfoFragment"
+        android:label="DanzaKuduroFragment" />
+</navigation>
