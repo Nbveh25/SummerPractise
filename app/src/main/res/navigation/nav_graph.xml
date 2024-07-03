@@ -61,6 +61,6 @@
         tools:layout="@layout/fragment_page" />
     <fragment
         android:id="@+id/danzaKuduroFragment"
-        android:name="ru.itis.summerpractise24_1.DanzaKuduroFragment"
+        android:name="ru.itis.summerpractise24_1.MusicInfoFragment"
         android:label="DanzaKuduroFragment" />
 </navigation>

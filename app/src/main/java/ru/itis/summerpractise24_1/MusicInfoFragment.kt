@@ -6,13 +6,13 @@ import android.view.View
 import androidx.core.os.bundleOf
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import ru.itis.summerpractise24_1.databinding.FragmentAlejandroBinding
+import ru.itis.summerpractise24_1.databinding.FragmentMusicInfoBinding
 
-class AlejandroFragment : Fragment(R.layout.fragment_derezzed) {
-    private lateinit var binding: FragmentAlejandroBinding
+class MusicInfoFragment : Fragment(R.layout.fragment_music_info) {
+    private lateinit var binding: FragmentMusicInfoBinding
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding = FragmentAlejandroBinding.bind(view)
+        binding = FragmentMusicInfoBinding.bind(view)
         val id = arguments?.getInt(ID)
         binding.run {
             backButton.setOnClickListener {
